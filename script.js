@@ -1,7 +1,7 @@
 // Get the container for the cards
 const cardContainer = document.querySelector('.card-container-custom');
 
-clothing.forEach(item => {
+data.forEach(item => {
     // Create card element
     const card = document.createElement('div');
     card.classList.add('card');
